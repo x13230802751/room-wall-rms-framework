@@ -1,0 +1,23 @@
+{
+  "python": "3.11.7",
+  "platform": "Windows",
+  "package_version": "1.0.0",
+  "installation": "editable install --no-deps --no-build-isolation in venv with existing system dependencies",
+  "source_download_and_independent_build": "passed",
+  "compiler": "g++ (x86_64-posix-sjlj-rev0, Built by MinGW-W64 project) 8.1.0",
+  "source_commits": {
+    "EfficientRANSAC": "6e8b3633c1cca8ba1cd1d36169e44d1e88dbf75b",
+    "PlaneDetection": "85a64ac8584c0a870dd61973228e186885c0cda2"
+  },
+  "unit_and_contract_tests_passed": 8,
+  "demo": {
+    "n_wall_candidates": 4,
+    "structural_status": "ok",
+    "n_local_ok": 4,
+    "n_opening_candidates": 1,
+    "report_generated": true
+  },
+  "handoff_docx_visual_review_pages": 6,
+  "M04_report_visual_review_pages": 3,
+  "M26_report_visual_review_pages": 4
+}

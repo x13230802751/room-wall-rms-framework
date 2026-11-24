@@ -59,5 +59,6 @@ python -m venv .venv
 - [可读版说明](docs/handoff.md)
 - [实现与验收计划](docs/implementation_plan.md)
 - [真实数据验证摘要](results/integration_verification.json)
+- [安装、独立编译与演示验证记录](results/build_verification.json)
 
 代码可端到端运行，不等于全部工程测量精度已通过验收。原版支持集可能漏掉真实鼓包；门窗几何候选和结构尺寸需要独立参考验证。原始课程点云、课程文件、旧实验、凭据和本地依赖不会上传。已有旧仓库保持不变。
