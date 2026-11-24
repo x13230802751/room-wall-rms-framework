@@ -57,6 +57,7 @@ python -m venv .venv
 
 - [总体任务与个人分工说明](docs/项目总体框架与个人任务说明.docx)
 - [可读版说明](docs/handoff.md)
+- [两面指定墙的官方 GT 与计算值对照](docs/gt_comparison.md)
 - [实现与验收计划](docs/implementation_plan.md)
 - [真实数据验证摘要](results/integration_verification.json)
 - [安装、独立编译与演示验证记录](results/build_verification.json)
