@@ -1,0 +1,119 @@
+{
+  "status": "passed",
+  "records": [
+    {
+      "room": "M04",
+      "source_sha256": "bbaa83cbd814c20b06c80e87f23c72bc7cbd5f07c57530ff67432dea6444568f",
+      "n_input": 510190,
+      "n_native_input": 510190,
+      "n_wall_candidates": 4,
+      "structural_status": "needs_review",
+      "structural_reason": "Structural intersection too far from measured wall support",
+      "exact_native_membership": true,
+      "original_coordinates_preserved": true,
+      "filter": "none",
+      "recovery": "none",
+      "max_independent_rms_difference_mm": 1.569853136373922e-10,
+      "walls": [
+        {
+          "wall": "W01",
+          "n_support": 113162,
+          "support_rms_mm": 1.351415697825274,
+          "surface_rms_mm": 1.351415697825274,
+          "whole_status": "needs_review",
+          "local_status": "ok",
+          "local_rms_mm": 0.6496298537441776,
+          "opening_candidates": 0
+        },
+        {
+          "wall": "W02",
+          "n_support": 37424,
+          "support_rms_mm": 1.3247150661367375,
+          "surface_rms_mm": 1.3247150661367375,
+          "whole_status": "needs_review",
+          "local_status": "needs_review",
+          "local_rms_mm": null,
+          "opening_candidates": 1
+        },
+        {
+          "wall": "W03",
+          "n_support": 42138,
+          "support_rms_mm": 1.1105114123676152,
+          "surface_rms_mm": 1.1105114123676152,
+          "whole_status": "needs_review",
+          "local_status": "ok",
+          "local_rms_mm": 0.48431201205201707,
+          "opening_candidates": 0
+        },
+        {
+          "wall": "W04",
+          "n_support": 114837,
+          "support_rms_mm": 1.4138054226069932,
+          "surface_rms_mm": 1.4138054226069932,
+          "whole_status": "needs_review",
+          "local_status": "ok",
+          "local_rms_mm": 0.6630303943243706,
+          "opening_candidates": 0
+        }
+      ],
+      "physical_accuracy_validated": false
+    },
+    {
+      "room": "M26",
+      "source_sha256": "a9b2b0c13d315314e106ecdbbc8e53acb693805dec8c6fb1c641f5a25dd48f91",
+      "n_input": 793393,
+      "n_native_input": 793393,
+      "n_wall_candidates": 4,
+      "structural_status": "ok",
+      "structural_reason": null,
+      "exact_native_membership": true,
+      "original_coordinates_preserved": true,
+      "filter": "none",
+      "recovery": "none",
+      "max_independent_rms_difference_mm": 2.567448476042955e-10,
+      "walls": [
+        {
+          "wall": "W01",
+          "n_support": 48915,
+          "support_rms_mm": 2.4138604785263333,
+          "surface_rms_mm": 2.4138604785263333,
+          "whole_status": "ok",
+          "local_status": "ok",
+          "local_rms_mm": 0.7013953804097093,
+          "opening_candidates": 0
+        },
+        {
+          "wall": "W02",
+          "n_support": 125467,
+          "support_rms_mm": 1.2621449175730846,
+          "surface_rms_mm": 1.2621449175730846,
+          "whole_status": "ok",
+          "local_status": "ok",
+          "local_rms_mm": 1.5611204853616514,
+          "opening_candidates": 1
+        },
+        {
+          "wall": "W03",
+          "n_support": 136039,
+          "support_rms_mm": 1.1422074980850732,
+          "surface_rms_mm": 1.1422074980850732,
+          "whole_status": "ok",
+          "local_status": "ok",
+          "local_rms_mm": 1.6221063986892739,
+          "opening_candidates": 0
+        },
+        {
+          "wall": "W04",
+          "n_support": 106065,
+          "support_rms_mm": 1.0833182527586587,
+          "surface_rms_mm": 1.0833182527586587,
+          "whole_status": "ok",
+          "local_status": "ok",
+          "local_rms_mm": 0.8710400036114099,
+          "opening_candidates": 0
+        }
+      ],
+      "physical_accuracy_validated": false
+    }
+  ]
+}
